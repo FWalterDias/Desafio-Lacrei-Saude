@@ -18,13 +18,17 @@ export const Container = styled.header`
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_HEADER};
 
     a{
-        font-size: 3.2rem;
+        font-size: 1.6rem;
         font-weight: 700;
         color: ${({ theme }) => theme.COLORS.PRIMARY_COLOR};
     }
 
     @media (min-width: 1200px){
         padding: 0 6.4rem;
+
+        a{
+            font-size: clamp(1.6rem, 3rem, 3.6rem);
+        }
     }
 
     animation: ${fadeInHeader} 1s ease-in-out;
