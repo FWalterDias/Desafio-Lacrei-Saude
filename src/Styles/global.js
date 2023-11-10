@@ -27,15 +27,6 @@ export default createGlobalStyle`
     text-decoration: none;
    }
 
-   button, a{
-    cursor: pointer;
-    transition: filter 0.2s;
-   }
-
-   button:hover, a:hover{
-    filter: brightness(0.9);
-   }
-
    li{
     list-style: none;
    }

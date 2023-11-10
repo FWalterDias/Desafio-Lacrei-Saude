@@ -9,25 +9,33 @@ const fadeInHeader = keyframes`
 
 export const Container = styled.header`
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
 
     width: 100%;
-    padding: 0 3.2rem;
+    padding: 0.5rem 1rem;
 
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_HEADER};
 
     a{
-        font-size: 1.6rem;
+        font-size: 3.6rem;
         font-weight: 700;
         color: ${({ theme }) => theme.COLORS.PRIMARY_COLOR};
+
+        &:hover{
+            opacity: 0.7;
+        }
     }
 
     @media (min-width: 1200px){
         padding: 0 6.4rem;
 
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2rem 6.4rem;
+
         a{
-            font-size: clamp(1.6rem, 3rem, 3.6rem);
+            font-size: 3.2rem;
         }
     }
 
@@ -38,8 +46,6 @@ export const Navigate = styled.ul`
     display: flex;
     align-items: center;
     gap: 1rem;
-
-    padding: 2rem 0;
 
     @media (min-width: 1200px){
         gap: 4rem;
@@ -56,7 +62,7 @@ export const StyledNavLink = styled(NavLink)`
         font-weight: 700;
 
         &:hover{
-            text-decoration: underline;
+            opacity: 0.7;
         }
     }
 

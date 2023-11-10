@@ -43,7 +43,7 @@ export const StyledNavLink = styled(NavLink)`
         font-weight: 400;
 
         &:hover{
-            text-decoration: underline;
+            opacity: 0.7;
         }
     }
 

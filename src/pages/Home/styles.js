@@ -115,6 +115,10 @@ export const ButtonPessoaUsuaria = styled(Link)`
     color: #FFFFFF;
     font-size: 1.8rem;
     font-weight: 700;
+
+    &:hover{
+        opacity: 0.7;
+    }
 `
 
 export const ButtonProfissional = styled(Link)`
@@ -135,4 +139,8 @@ export const ButtonProfissional = styled(Link)`
     color: ${({ theme }) => theme.COLORS.PRIMARY_COLOR};
     font-size: 1.8rem;
     font-weight: 700;
+
+    &:hover{
+        opacity: 0.7;
+    }
 `
