@@ -1,8 +1,7 @@
-# React + Vite
+# Desafio Front End Para voluntariado 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto consiste em um desafio para ser voluntário na empresa <a href=""> Lacrei Saude <a/>. Ele consiste em desenvolver uma Landing Page Responsiva e com navegação entra as Páginas Home, Pessoa Usuária e Profissional.
 
-Currently, two official plugins are available:
+Para este desafio utilizei React e suas libs, como React-Router-Dom, e a lib Styled-Components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Link da aplicação: https://desafio-lacrei-saude-coral.vercel.app/home
