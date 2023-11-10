@@ -62,6 +62,10 @@ export const SocialMedias = styled.div`
     img{
         width: 3.2rem;
         cursor: pointer;
+
+        &:hover{
+            opacity: 0.7;
+        }
     }
 `
 
